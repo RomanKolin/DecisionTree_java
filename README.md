@@ -1,2 +1,2 @@
 # DecisionTree_java
-This app finds the optimal solution based on the following data: demand and its probability (four indicators), profit and loss
+This app finds the optimal solution based on the decision tree technology and the following data: demand and its probability (four indicators), profit and loss
