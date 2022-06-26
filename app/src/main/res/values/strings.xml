@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Дерево решений</string>
+    <string name="creator">KOLINKO</string>
+    <string name="hint0">0</string>
+    <string name="demand">Спрос: </string>
+    <string name="probability">Вероятность: </string>
+    <string name="profit">Выгода: </string>
+    <string name="loss">Убыток: </string>
+    <string name="optimaldecision">Оптимальное решение</string>
+    <string name="sign">+/-</string>
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheDecisionTreeActivity">
+
+    <TextView
+        android:id="@+id/textViewcreator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/maroon"
+        android:textSize="10sp"
+        android:text="@string/creator"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SmallSp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewcreator">
+
+        <TextView
+            android:id="@+id/textView1demand"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:fontFamily="@font/timesnewroman"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/demand" />
+
+        <EditText
+            android:id="@+id/editText1demand1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+
+        <EditText
+            android:id="@+id/editText2demand2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+
+        <EditText
+            android:id="@+id/editText3demand3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:backgroundTint="@color/maroon"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor" />
+
+        <EditText
+            android:id="@+id/editText4demand4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout1">
+
+        <TextView
+            android:id="@+id/textView2probability"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:fontFamily="@font/timesnewroman"
+            android:text="@string/probability"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText5probability1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+
+        <EditText
+            android:id="@+id/editText6probability2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:backgroundTint="@color/maroon"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor" />
+
+        <EditText
+            android:id="@+id/editText7probability3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+
+        <EditText
+            android:id="@+id/editText8probability4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1625"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout2">
+
+        <TextView
+            android:id="@+id/textView3profit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:fontFamily="@font/timesnewroman"
+            android:text="@string/profit"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText9profit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout3">
+
+        <TextView
+            android:id="@+id/textView4loss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:fontFamily="@font/timesnewroman"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/loss" />
+
+        <EditText
+            android:id="@+id/editText10loss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:fontFamily="@font/timesnewromanitalic"
+            android:textCursorDrawable="@drawable/cursor"
+            android:backgroundTint="@color/maroon"
+            android:hint="@string/hint0"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,LabelFor" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1optimaldecision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickoptimaldecision"
+        android:fontFamily="@font/timesnewroman"
+        android:text="@string/optimaldecision"
+        android:background="@drawable/redbutton"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout4">
+    </Button>
+
+    <TextView
+        android:id="@+id/textView5optimaldecision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/timesnewroman"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button1optimaldecision" />
+</androidx.constraintlayout.widget.ConstraintLayout>
